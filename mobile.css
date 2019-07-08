@@ -1,0 +1,39 @@
+@media (max-width: 600px) 
+{
+
+/* *********Aqui Comienza rimera seccion********** */
+
+.products
+{
+    display: inherit;
+    height: auto;
+}
+
+.product
+{
+    margin-top: auto;
+}
+
+.main_section
+{
+    padding: 4%;
+}
+
+/* *********Aqui termina mi  primera seccion********** */
+
+
+/* *********Aqui Comienza mi segunda Seccion********** */
+
+.second-section, .three-section
+{
+    display: inherit;
+}
+
+.three-section article
+{
+    margin: 20px;
+}
+/* *********Aqui Termina mi Segunda seccion********** */
+
+
+}

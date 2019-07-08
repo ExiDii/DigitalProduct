@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+            </style>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="ventas.css">
+    <title>Venta</title>
+</head>
+<body>
+    <!-- Aqui empieza el navbar -->
+    <nav class="fadeInDown">
+        <div class="brand_image">
+             <a href="file:///C:/Users/Espectrosx-PC/Documents/D_Curso%20de%20HTML%20Definitivo/index.html"><img src="images/logo.png" alt=""></a>
+        </div>
+        
+        <div class="nav_options">
+            <ul>
+                <li><a href="http://">Faqs</a></li>
+                <li><a href="">Productos y Descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Aque acaba el navbar -->
+    
+<!-- Aqui empieza Ventas -->
+
+<div class="container">
+
+    <div class="row" style="align-items: unset">
+
+        <div class="col-4">
+    
+                <div class="modulo_pago">
+
+                   <div class="modulo_pago_imagenes">
+                        <img src="images/ben1.png" alt="">
+                   </div>
+
+                    <h3>Producto 1</h3>
+                    <p>The best product!.</p>
+                    </div>
+            
+        </div>
+    
+        <div class="col-8">
+    
+            <div class="modulo_pago  modulo_pago_paddin"  >
+
+                <form action="http://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=g36u8s3eqt8kn" method="POST">
+                        <label for="name">Nombre</label><br>
+                        <input type="text" placeholder="" name="name">
+                        <br>
+                        <label for="mail">Mail</label><br>
+                        <input type="text" placeholder="" name="email">
+                        <br>
+                        <label for="telefono">Teléfono</label><br>
+                        <input type="text" placeholder="" name="phone">
+
+                        <input type="submit" class="main_button" name="submit">
+
+                </form>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Aqui Termina Ventas -->
+
+
+<!-- *******************************Aqui comienza mi footer********************* -->
+    <footer>
+            <p>Terminos y condiciones</p>
+            <p>Contactos@Gmail.com</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

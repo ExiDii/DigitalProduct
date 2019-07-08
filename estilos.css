@@ -1,0 +1,190 @@
+/* --------------------------------------------------------Variables--------------------------------------- */
+:root
+{
+    --green-color:#7acc2d;
+}
+
+
+/* --------------------------------------------------------Variables--------------------------------------- */
+
+
+html,body
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family:'Open Sans', sans-serif;
+}
+
+    /* Aqui comienza mi navbar */
+    
+    nav
+    {
+        display: flex;
+        background-color: var(--green-color);
+        padding: 10px;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav ul
+    {
+        display: flex;
+    }
+    
+    nav li
+    {
+        padding-left: 20px;
+        list-style: none;
+    }
+    
+    nav li a
+    {
+        color: black;
+        text-decoration: none; 
+    }
+    
+    nav li a:hover
+    {
+        color: white;
+    }
+     /* ------------------------------------------Aqui termina mi navbar------------------------------------- */
+
+   /* ----------------------------------------Aqui comienza mi main section------------------------------------ */
+   
+   .main_section
+   {
+       padding: 15%;
+       text-align: center;
+   }
+
+   .products
+   {
+       background-image: url("images/curve.png");
+       height: 95px;
+       background-size: cover;
+       background-position: center top;
+       padding: 15%;
+       display: flex;
+   }
+
+   .product
+   {
+       padding: 10px;
+       margin-top: -240px
+   }
+
+   .product .content
+   {
+       background-color: white;
+       padding: 10px;
+       box-shadow: 0 0 2px 1px #c1bcbc;
+   }
+
+   .img_content
+   {
+       text-align: center;
+   }
+
+   .main_button
+   {
+       background-color: var(--green-color);
+       width: 100%;
+       padding: 10px;
+       font-size: 12px;
+       color: white;
+       border: 0;
+       cursor: pointer;
+       border-radius: 2px;
+   }
+   .main_button:hover
+   {
+       background-color: #5e9e22;
+   }
+
+   /* ----------------------------------------Aqui termina mi main section------------------------------------ */
+
+   /****************************************Aqui empieza mi Second Section main-------------------------------------- */
+   
+   .second-section
+   {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-section img
+{
+    width: 150px;
+}
+
+.second-section article
+{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: 0 0 5px #c2df9d;
+    text-align: center;
+}
+
+.p-second-section
+{
+    text-align:  left;
+}
+/****************************************Aqui termina mi Second Section main----------------------------------- */
+
+/* <!-- *********************************Aqui comienza mi three section main********************************* --> */
+
+#h1-three-section
+{
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.three-section
+{
+    margin-top: 40px;
+    display: flex;
+}
+
+.three-section figure, .three-section img
+{
+    width: 100%;
+    margin: 0px;
+}
+
+.three-section article
+{   
+    box-shadow: 0 0 4px #c2df9d;
+    margin: 8px;   
+}
+
+.three-section h3, .three-section p
+{
+    padding: 0 6px 0 6px;
+
+}
+
+/* <!-- *********************************Aqui Termina mi three section main********************************* --> */
+
+
+footer
+{
+    background-color: #313337;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+
+

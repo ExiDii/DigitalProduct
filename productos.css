@@ -1,0 +1,19 @@
+#Productos
+{
+    padding: 0% 40%;
+}
+
+.container img
+{
+    width: 100%;
+}
+
+.row 
+{
+    align-items: center;
+}
+.row div h3, .row div p
+{
+    text-align: left;
+    margin: 10px 0px;
+}
